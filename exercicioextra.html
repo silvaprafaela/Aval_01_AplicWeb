@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+	    <title>Somador</title>
+        <link rel ="stylesheet" type ="text/css" href ="arrumar.css">
+		<meta charset="utf-8">
+	</head>
+ <body>
+	  <h1>Somador JavaScript</h1>
+	  <hr>
+      <div id="div1">
+		 <input type="text" id="campo1"></input>
+      </div>
+      <div id="sinal">        
+          +
+      </div>
+      <div id="div20">  
+		<input type="text" id="campo2"></input>
+     </div>
+     <div id="igual">
+        <input type="button" value="=" onclick="test()"></input>
+     </div>
+     <div id="div4"> 
+	    <input type="campo3" name="campo3" id="campo3"></input>
+     </div>
+ <script>
+     function test(){
+         var campo1 = document.querySelector('#campo1').value;
+         var campo2 = document.querySelector('#campo2').value;
+           var n1 = parseInt(campo1); 
+           var n2 = parseInt(campo2);
+           var soma = n1 + n2;
+           document.querySelector('#campo3').value = soma;
+
+     }
+  </script>
+ </body>
+</html>
