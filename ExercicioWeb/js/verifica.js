@@ -1,4 +1,3 @@
-//Rafaela Custódio e Yagho Baldansi
 $(document).ready(function(e){
 	$("#dialog-confirm").hide();
 	$(".menuPrincipal a").click(function(e){
